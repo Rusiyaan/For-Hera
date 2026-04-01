@@ -236,8 +236,8 @@ export default function Home() {
       <section className="stage-shell">
         <header className="hero-head">
           <p className="kicker">Everything For u Babe</p>
-          <h1>Dünyanın en güzel kızına, dünyanın en güzel şarkısı.</h1>
-          <p>Seninle olabildigim icin o kadar mutlu ve sansliyim ki</p>
+          <h1>For the most beautiful girl in the world, the most beautiful song in the world.</h1>
+          <p>i am so happy and lucky to be with you</p>
         </header>
 
         <div className="lyrics-card">
@@ -290,11 +290,11 @@ export default function Home() {
       {!hasStarted && (
         <div className="intro-overlay" role="dialog" aria-live="polite">
           <div className="intro-panel">
-            <p className="intro-kicker">Seninle her gece her sabah olabilmek dilegiyle..</p>
-            <h2>Dünyanın en güzel kızına.</h2>
-            <p>Butona Basar misin bebegimmm.</p>
+            <p className="intro-kicker">With you, every night and morning is possible...</p>
+            <h2>For the most beautiful girl in the world.</h2>
+            <p>Will you press the button, my dear?</p>
             <button type="button" className="main-button" onClick={togglePlayback}>
-              {audioStatus === "ready" ? "Başlat" : "Hazırlanıyor..."}
+              {audioStatus === "ready" ? "Start" : "Preparing..."}
             </button>
           </div>
         </div>
