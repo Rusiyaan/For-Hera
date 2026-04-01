@@ -242,7 +242,7 @@ export default function Home() {
 
         <div className="lyrics-card">
           <div className="status-row">
-            <span className="badge">{isPlaying ? "Canlı" : "Beklemede"}</span>
+            <span className="badge">{isPlaying ? "Live" : "Beklemede"}</span>
             <span>
               {formatTime(currentTime)} / {formatTime(duration)}
             </span>
@@ -260,10 +260,10 @@ export default function Home() {
 
           <div className="controls">
             <button type="button" className="main-button" onClick={togglePlayback}>
-              {isPlaying ? "Duraklat" : hasEnded ? "Tekrar Oynat" : "Çal"}
+              {isPlaying ? "Pause" : hasEnded ? "Restart" : "Play"}
             </button>
             <button type="button" className="soft-button" onClick={restartSong}>
-              Başa Sar
+              Restart
             </button>
           </div>
 
